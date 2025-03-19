@@ -1,0 +1,36 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.17:8501
+
+D:\DATN\Code4\SinhVienNam1_HeChu_clean
+[0.0 0.0 0.0 0.0 0.0 0.0 0.0] D:\DATN\Code4\SinhVienNam1_HeChu_clean
+['F' 'F' 'F' 'F' 'F' 'F' 'F']
+D:\DATN\Code4
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.17:8501
+
+D:\DATN\Code4\SinhVienNam1_HeChu_clean
+[0.0 0.0 0.0 0.0 0.0 0.0 0.0] D:\DATN\Code4\SinhVienNam1_HeChu_clean
+['F' 'F' 'F' 'F' 'F' 'F' 'F']
+D:\DATN\Code4
+Current path:  D:\DATN\Code4\SinhVienNam2_HeChu_clean
+Path: D:\DATN\Code4\SinhVienNam2_HeChu_clean
+D:\DATN\Code4\SinhVienNam2_HeChu_clean
+D:\DATN\Code4
+['F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F']
+D:\DATN\Code4\SinhVienNam1_HeChu_clean
+[0.0 0.0 0.0 0.0 0.0 0.0 0.0] D:\DATN\Code4\SinhVienNam1_HeChu_clean
+['F' 'F' 'F' 'F' 'F' 'F' 'F']
+D:\DATN\Code4
+Current path:  D:\DATN\Code4\SinhVienNam2_HeChu_clean
+Path: D:\DATN\Code4\SinhVienNam2_HeChu_clean
+D:\DATN\Code4\SinhVienNam2_HeChu_clean
+D:\DATN\Code4
+['F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F' 'F']
+  Stopping...

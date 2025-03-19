@@ -1,0 +1,67 @@
+ten_hp,ma_hp,tu_chon,so_tc,hoc_ky
+Kỹ năng mềm,QLY17.2,0,2,1
+Triết học Mác- Lê Nin F1,MLN301.3,0,3,1
+Đại số tuyến tính,DSO02.3,0,3,1
+Giải tích 1,GIT01.3,0,3,1
+Tin học đại cương,CPM01.3,0,3,1
+Những nguyên lý cơ bản của chủ nghĩa Mác- Lê Nin F1,MLN01.2,0,2,1
+Chủ nghĩa xã hội khoa học,MLN04.2,0,2,2
+Kinh tế chính trị Mác-Lênin,MLN302.2,0,2,2
+Vật lý điện từ,VLY01.3,0,3,2
+Giải tích 2,GIT02.3,0,3,2
+Lập trình nâng cao,CPM215.3,0,3,2
+Những nguyên lý cơ bản của chủ nghĩa Mác- Lê Nin F2,MLN02.3,0,3,2
+Giải tích số,KHM01.2,1,2,3
+Bảo trì hệ thống,MHT03.2,1,2,3
+Thiết kế Web,MHT36.3,0,3,3
+Toán rời rạc,KHM04.3,0,3,3
+Cấu trúc dữ liệu và giải thuật,KHM05.3,0,3,3
+Kiến trúc và tổ chức máy tính,MHT02.3,0,3,3
+Lập trình hướng đối tượng,CPM04.3,0,3,3
+Tư tưởng Hồ Chí Minh,HCM01.2,0,2,3
+Xác suất thống kê,DSO04.2,0,2,4
+Lịch sử Đảng Cộng sản Việt Nam,DCS301.2,0,2,4
+Hệ điều hành,MHT04.3,0,3,4
+Công nghệ Java,CPM05.3,0,3,4
+Cơ sở dữ liệu,MHT05.3,0,3,4
+Phân tích thiết kế thuật toán,KHM08.3,0,3,4
+Đường lối cách mạng Đảng Cộng sản Việt Nam,DCS01.3,0,3,4
+Chương trình dịch,KHM13.3,2,3,5
+Thuật toán và ứng dụng,KHM21.3,2,3,5
+Lập trình trực quan,CPM211.3,0,3,5
+Mạng máy tính,MHT06.3,0,3,5
+Phân tích thiết kế hệ thống,CPM06.3,0,3,5
+Thiết kế cơ sở dữ liệu,MHT09.2,3,2,5
+Hệ điều hành Unix,MHT10.2,3,2,5
+Tiếng Anh B1,ANHB1.4,4,4,5
+Tiếng Pháp B1,PHAPB1.4,4,4,5
+Tiếng Nga B1,NGAB1.4,4,4,5
+Lý thuyết trò chơi và ứng dụng,KHM20.3,5,3,6
+Lập trình mạng,MHT22.3,5,3,6
+Lập trình Web,MHT208.3,0,3,6
+Công nghệ phần mềm,CPM08.3,6,3,6
+Lập trình sử dụng API,CPM212.3,6,3,6
+Lập trình thiết bị di động,MHT234.3,7,3,6
+Thực hành mạng,MHT21.3,7,3,6
+An toàn và bảo mật thông tin,KHM07.3,0,3,6
+Thực tập chuyên môn ,CNT301.3,0,3,6
+Tiếng Anh chuyên ngành,ANHCNTT.3,8,3,6
+Tiếng Pháp chuyên ngành,PKTh.3,8,3,6
+Tiếng Nga chuyên ngành,NGACNTT.3,8,3,6
+Trí tuệ nhân tạo,MHT07.3,0,3,7
+Hệ thông tin địa lý,MHT18.3,9,3,7
+Khai phá dữ liệu,MHT12.3,9,3,7
+Phân tích thiết kế hướng đối tượng,CPM07.3,10,3,7
+Xử lý ảnh,CPM223.3,10,3,7
+Quản trị mạng,MHT15.3,11,3,7
+An ninh mạng,MHT235.3,11,3,7
+Công nghệ Oracle,KHM14.3,12,3,7
+Đặc tả phần mềm,KHM10.3,12,3,7
+Chuyên đề công nghệ phần mềm,CPM10.3,13,3,7
+Chuyên đề Hệ thống thông tin,MHT16.3,13,3,7
+Chuyên đề Mạng máy tính,MHT23.3,13,3,7
+Chuyên đề Khoa học máy tính,KHM219.3,13,3,7
+Chuyên đề Công nghệ thông tin,CNT02.3,13,3,7
+Chuyên đề về công nghệ phần mềm,CPM10.3,13,3,7
+Thực tập tốt nghiệp ,CNT03.2,0,2,8
+Đồ án tốt nghiệp,CNT04.10,0,10,8

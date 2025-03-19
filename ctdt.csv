@@ -1,0 +1,92 @@
+CHƯƠNG TRÌNH ĐÀO TẠO + MA TRẬN CHUẨN ĐẦU RA,Unnamed: 1,Unnamed: 2,Unnamed: 3
+,HỌC KỲ 1,,
+1,Kỹ năng mềm,QLY17.2,2
+2,Triết học Mác- Lê Nin F1,MLN301.3,3
+3,Đại số tuyến tính,DSO02.3,3
+4,Giải tích 1,GIT01.3,3
+5,Tin học đại cương,CPM01.3,3
+6,Giáo dục thể chất F1,GDT01.1,1
+,HỌC KỲ 2,,
+7,Chủ nghĩa xã hội khoa học,MLN04.2,2
+8,Kinh tế chính trị Mác-Lênin,MLN302.2,2
+9,Vật lý điện từ,VLY01.3,3
+10,Giải tích 2,GIT02.3,3
+11,Giáo dục QP-AN F1,GQP201.3,3
+12,Giáo dục QP-AN F2,GQP202.2,2
+13,Giáo dục QP-AN F3,GQP203.3,3
+15,Lập trình nâng cao,CPM215.3,3
+16,Giáo dục thể chất F2,GDT02.1,1
+,HỌC KỲ 3,,
+17,Chọn 1 trong 2 học phần,,
+,a- Giải tích số,KHM01.2,2
+,b- Bảo trì hệ thống,MHT03.2,2
+18,Thiết kế Web,MHT36.3,3
+19,Toán rời rạc,KHM04.3,3
+20,Cấu trúc dữ liệu và giải thuật,KHM05.3,3
+21,Kiến trúc và tổ chức máy tính,MHT02.3,3
+22,Lập trình hướng đối tượng,CPM04.3,3
+23,Tư tưởng Hồ Chí Minh,HCM01.2,2
+24,Giáo dục thể chất F3,GDT03.1,1
+,  HỌC KỲ 4,,
+25,Xác suất thống kê,DSO04.2,2
+26,Lịch sử Đảng Cộng sản Việt Nam,DCS301.2,2
+27,Hệ điều hành,MHT04.3,3
+28,Công nghệ Java,CPM05.3,3
+29,Cơ sở dữ liệu,MHT05.3,3
+30,Phân tích thiết kế thuật toán,KHM08.3,3
+31,Giáo dục thể chất F4,GDT04.1,1
+,  HỌC KỲ 5,,
+32,Chọn 1 trong 2 học phần,,
+,a- Chương trình dịch,KHM13.3,3
+,b- Thuật toán và ứng dụng,KHM21.3,3
+33,Lập trình trực quan,CPM211.3,3
+34,Mạng máy tính,MHT06.3,3
+35,Phân tích thiết kế hệ thống,CPM06.3,3
+36,Chọn 1 trong 2 học phần,,
+,a- Thiết kế cơ sở dữ liệu,MHT09.2,2
+,b- Hệ điều hành Unix,MHT10.2,2
+37,Chọn 1 trong 3 học phần,,
+,a- Tiếng Anh B1,ANHB1.4,4
+,b- Tiếng Pháp B1,PHAPB1.4,4
+,c- Tiếng Nga B1,NGAB1.4,4
+,  HỌC KỲ 6,,
+38,Chọn 1 trong 2 học phần,,
+,a- Lý thuyết trò chơi và ứng dụng,KHM20.3,3
+,b- Lập trình mạng,MHT22.3,3
+39,Lập trình Web,MHT208.3,3
+40,Chọn 1 trong 2 học phần,,
+,a- Công nghệ phần mềm,CPM08.3,3
+,b- Lập trình sử dụng API,CPM212.3,3
+41,Chọn 1 trong 2 học phần,,
+,a- Lập trình thiết bị di động,MHT234.3,3
+,b- Thực hành mạng,MHT21.3,3
+42,An toàn và bảo mật thông tin,KHM07.3,3
+43,Thực tập chuyên môn ,CNT301.3,3
+44,Ngoại ngữ chuyên ngành,,
+,a- Tiếng Anh,ANHCNTT.3,3
+,b- Tiếng Pháp,PKTh.3,3
+,c- Tiếng Nga,NGACNTT.3,3
+,  HỌC KỲ 7,,
+45,Trí tuệ nhân tạo,MHT07.3,3
+46,Chọn 1 trong 2 học phần,,
+,a- Hệ thông tin địa lý,MHT18.3,3
+,b- Khai phá dữ liệu,MHT12.3,3
+47,Chọn 1 trong 2 học phần,,
+,a- Phân tích thiết kế hướng đối tượng,CPM07.3,3
+,   b- Xử lý ảnh,CPM223.3,3
+48,Chọn 1 trong 2 học phần,,
+,a- Quản trị mạng,MHT15.3,3
+,b- An ninh mạng,MHT235.3,3
+49,Chọn 1 trong 2 học phần,,
+,a- Công nghệ Oracle,KHM14.3,3
+,b- Đặc tả phần mềm,KHM10.3,3
+50,Chọn 1 trong 5 học phần,,
+,a- Chuyên đề công nghệ phần mềm,CPM10.3,3
+,b- Chuyên đề Hệ thống thông tin,MHT16.3,3
+,c- Chuyên đề Mạng máy tính,MHT23.3,3
+,d- Chuyên đề Khoa học máy tính,KHM219.3,3
+,e- Chuyên đề Công nghệ thông tin,CNT02.3,3
+,  HỌC KỲ 8,,
+51,Thực tập tốt nghiệp ,CNT03.2,2
+52,Đồ án tốt nghiệp,CNT04.10,10
+,Tổng cộng số tín chỉ,,143
