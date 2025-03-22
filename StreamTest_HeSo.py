@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 from sklearn import tree
 from chefboost import Chefboost as chef
-
+import test_bot
 st.header(":blue[🌺 DỰ ĐOÁN KẾT QUẢ HỌC TẬP SINH VIÊN 🌷]")
 st.subheader('Nhập các thông tin điểm')
 
@@ -85,7 +85,7 @@ def _max_width_():
     )
 def user_input_feature_nam_1():
     st.sidebar.write('Học kỳ 1')
-    KiNangMem = st.sidebar.number_input('Kỹ năng mềm 001', 0.0, 10.0)
+    KiNangMem = st.sidebar.number_input('Kỹ năng mềm', 0.0, 10.0)
    # TrietHocMLN = st.sidebar.number_input('Triết học Mác- Lê Nin F1', 0.0, 10.0)
     DaiSoTuyenTinh = st.sidebar.number_input('Đại số tuyến tính', 0.0, 10.0)
     GiaiTich1 = st.sidebar.number_input('Giải tích 1', 0.0, 10.0)
@@ -670,3 +670,13 @@ elif options=='Năm 3':
     else:
         st.subheader(f':red[Bạn có khả năng không ra trường đúng hạn, cần cố gắng thêm ]')
 
+# Tạo thanh nhập liệu
+knowledge_base = test_bot.load_knowledge_base("intents_output.json")
+st.markdown("<p style='font-size:20px;'>Một số điều bạn còn băn khoăn về vấn đề học tập tại mái trường này?🐳</p>", unsafe_allow_html=True)
+user_input = st.text_input("Tâm sự với tui nè💕")
+best_match: str | None = test_bot.find_best_match(user_input, [q["patterns"] for q in knowledge_base["intents"]])
+if best_match:
+    answer: str = test_bot.get_answer_for_question(best_match, knowledge_base)
+    st.write(answer)
+else:
+    st.write("Xin lỗi, tôi chưa hiểu :(((")

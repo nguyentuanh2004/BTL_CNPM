@@ -1,0 +1,1432 @@
+{
+    "intents": [
+        {
+            "tag": "yêu",
+            "patterns": "làm sao để có người yêu",
+            "responses": "cứ ngoan với chăm học đi rồi trường sẽ thưởng",
+            "context_set": ""
+        },
+        {
+            "tag": "học",
+            "patterns": "làm sao để không học mà vẫn ra trường với bằng giỏi",
+            "responses": "mơ đi cưng",
+            "context_set": ""
+        },
+        {
+            "tag": "Giới thiệu trường",
+            "patterns": "Trường Đại học Giao thông Vận tải thành lập khi nào? / Lịch sử trường ra sao?",
+            "responses": "Trường Đại học GTVT được thành lập ngày 24/3/1962 theo Quyết định 42/CP của Thủ tướng Phạm Văn Đồng, tiền thân là Trường Cao đẳng Công chính từ năm 1902, chính thức hoạt động dưới chính quyền cách mạng từ 15/11/1945.",
+            "context_set": ""
+        },
+        {
+            "tag": "Giới thiệu trường",
+            "patterns": "Sứ mạng của trường là gì?",
+            "responses": "Sứ mạng của Trường Đại học GTVT là đào tạo, nghiên cứu khoa học, chuyển giao công nghệ chất lượng cao, hội nhập quốc tế, góp phần phát triển bền vững ngành giao thông vận tải và đất nước.",
+            "context_set": ""
+        },
+        {
+            "tag": "Giới thiệu trường",
+            "patterns": "Tầm nhìn của trường đến năm 2030 là gì?",
+            "responses": "Đến năm 2030, trường hướng tới trở thành đại học đa ngành, định hướng nghiên cứu, đạt chất lượng ngang tầm khu vực châu Á.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Đào tạo theo tín chỉ là gì?",
+            "responses": "Đào tạo theo tín chỉ là phương thức tổ chức học tập theo từng học phần, sinh viên tự tích lũy tín chỉ và xây dựng kế hoạch học tập cá nhân phù hợp với lịch giảng dạy của trường.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Thời gian tối đa để hoàn thành khóa học là bao lâu?",
+            "responses": "Thời gian tối đa để hoàn thành khóa học là gấp đôi thời gian kế hoạch học tập chuẩn toàn khóa, tùy theo hình thức đào tạo (chính quy hoặc vừa làm vừa học).",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Sinh viên vừa làm vừa học có gì khác chính quy?",
+            "responses": "Sinh viên vừa làm vừa học có thời gian học dài hơn ít nhất 20% so với chính quy và có thể được miễn một số học phần như Ngoại ngữ, Giáo dục Quốc phòng.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Chương trình đào tạo được công khai khi nào?",
+            "responses": "Chương trình đào tạo được công khai trước khi tuyển sinh và khi bắt đầu khóa học, mọi thay đổi sẽ được thông báo trước khi áp dụng.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Nếu không đạt học phần thì sao?",
+            "responses": "Nếu không đạt học phần bắt buộc, bạn phải học lại hoặc học học phần tương đương; nếu là học phần tự chọn, bạn có thể học lại hoặc chọn học phần khác.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Đào tạo chính quy tổ chức thế nào?",
+            "responses": "Đào tạo chính quy chủ yếu diễn ra tại trường từ 7h đến 21h30 từ thứ 2 đến thứ 7, có thể bao gồm thực hành, thực tập hoặc học trực tuyến ngoài trường.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Đánh giá rèn luyện sinh viên là gì?",
+            "responses": "Đánh giá rèn luyện là quá trình chấm điểm hành vi, thái độ, và hoạt động của sinh viên, được quy định trong Phần 2.3 của Sổ tay sinh viên.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Kỷ luật sinh viên được xử lý thế nào?",
+            "responses": "Quy trình kỷ luật sinh viên được thực hiện theo Phần 2.4, từ cảnh cáo đến buộc thôi học, tùy mức độ vi phạm.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Học bổng được cấp ra sao?",
+            "responses": "Học bổng được cấp dựa trên kết quả học tập và rèn luyện, theo quy định tại Phần 2.5 của Sổ tay sinh viên.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Chế độ chính sách cho sinh viên là gì?",
+            "responses": "Chế độ chính sách hỗ trợ sinh viên (miễn giảm cho sinh viên diện ưu đãi, vay vốn) được quy định tại Phần 2.6.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Sinh viên ngoại trú cần làm gì?",
+            "responses": "Sinh viên ngoại trú cần đăng ký tạm trú/tạm vắng theo quy định tại Phần 2.8 và thực hiện thủ tục tại Văn phòng Hỗ trợ sinh viên.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Làm sao để xin giấy xác nhận vay vốn tín dụng?",
+            "responses": "Đăng ký online tại http://sis.utc.edu.vn, điền thông tin và nhận kết quả tại Phòng 101 Nhà T1 vào chiều thứ 3 hoặc thứ 6.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Thủ tục cấp giấy xác nhận chế độ chính sách như thế nào?",
+            "responses": "Nộp yêu cầu online qua http://sis.utc.edu.vn, nhận kết quả tại Phòng 101 Nhà T1 vào sáng thứ 3 hoặc chiều thứ 5.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Làm lại thẻ sinh viên ở đâu?",
+            "responses": "Đăng ký tại Phòng CTCT&SV (P103 - Nhà A9) vào sáng thứ 5 hoặc thứ 6, nộp lệ phí theo quy định.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Rút hồ sơ sinh viên sau tốt nghiệp thế nào?",
+            "responses": "Sau thông báo của trường, đến Phòng 101 Nhà T1 rút hồ sơ, mang giấy tờ tùy thân và bảng tốt nghiệp công chứng.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Thanh toán tài sản ra trường là gì?",
+            "responses": "Thanh toán nợ sách, tài chính và nghĩa vụ quân sự trước khi nhận bằng, kiểm tra tình trạng tại http://sis.utc.edu.vn.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Liên hệ Phòng Đào tạo Đại học ở đâu?",
+            "responses": "Phòng Đào tạo Đại học ở tầng 1 Nhà A9, số điện thoại: 024.376069538.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Trung tâm Thông tin - Thư viện ở đâu?",
+            "responses": "Trung tâm Thông tin - Thư viện nằm ở Nhà A8, liên hệ: 024.37669860.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Ký túc xá liên hệ ai?",
+            "responses": "Liên hệ Ban Quản lý Ký túc xá tại số 99 Nguyễn Chí Thanh, số điện thoại: 024.37741734.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Trạm Y tế ở đâu?",
+            "responses": "Trạm Y tế ở tầng 1 Nhà B3 (khu Cầu Giấy) và tầng 1 Nhà A3 (khu KTX), số điện thoại: 024.38358811.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Website quản lý đào tạo là gì?",
+            "responses": "Website quản lý đào tạo là http://qldt.utc.edu.vn/.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Email sinh viên dùng để làm gì?",
+            "responses": "Email sinh viên (@ims.utc.edu.vn) dùng để đăng nhập hệ thống học tập, nhận thông báo và thực hiện các dịch vụ trực tuyến.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Làm sao cài app eUTC?",
+            "responses": "Tải app eUTC và làm theo hướng dẫn cài đặt tại trang 73 của Sổ tay sinh viên.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "App eUTC có gì?",
+            "responses": "App eUTC hiển thị lịch học, tin tức, bảng điểm và các dịch vụ sinh viên khác.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Quên mật khẩu email sinh viên thì sao?",
+            "responses": "Đến Văn phòng Hỗ trợ sinh viên (Phòng 101 Nhà T1) từ thứ 2 đến thứ 6, mang theo giấy tờ tùy thân.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Xem bảng điểm trên app eUTC thế nào?",
+            "responses": "Vào mục \"Bảng điểm\" trên giao diện app eUTC để xem danh sách học phần đã có điểm.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hoạt động sinh viên",
+            "patterns": "Đoàn Thanh niên làm gì?",
+            "responses": "Đoàn Thanh niên tổ chức hoạt động ngoại khóa, sinh hoạt đoàn, liên hệ tại P201 Hội trường lớn, số điện thoại: 024.37664530.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hoạt động sinh viên",
+            "patterns": "Hội Sinh viên hỗ trợ gì?",
+            "responses": "Hội Sinh viên hỗ trợ hoạt động phong trào, liên hệ tại P206 Hội trường lớn, số điện thoại: 024.37731419.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Học phần tự chọn là gì?",
+            "responses": "Học phần tự chọn là các môn sinh viên được chọn theo sở thích hoặc định hướng, nằm trong chương trình đào tạo.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Miễn học phần được không?",
+            "responses": "Sinh viên vừa làm vừa học hoặc quốc tế có thể được miễn các học phần như Ngoại ngữ, Giáo dục Quốc phòng.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Xin giấy giới thiệu thực tập ở đâu?",
+            "responses": "Nộp đơn tại Văn phòng Khoa quản lý sinh viên từ thứ 2 đến thứ 6.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Khoa Công nghệ Thông tin liên hệ thế nào?",
+            "responses": "Khoa Công nghệ Thông tin ở tầng 3 Nhà A9, số điện thoại: 024.37664679.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Chuẩn đầu ra ngoại ngữ là gì?",
+            "responses": "Chuẩn đầu ra ngoại ngữ được quy định tại Phần 2.2, yêu cầu sinh viên đạt trình độ tối thiểu trước khi tốt nghiệp.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Đăng ký tạm vắng ở đâu?",
+            "responses": "Đăng ký tại Văn phòng Hỗ trợ sinh viên (Phòng 101 Nhà T1) vào thứ 2, thứ 4, thứ 6.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Fanpage của trường là gì?",
+            "responses": "Fanpage của trường là https://www.facebook.com/dhgtvtcaugiay/.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Liên kết đào tạo là gì?",
+            "responses": "Liên kết đào tạo là hình thức vừa làm vừa học phối hợp với cơ sở khác, đảm bảo chất lượng theo quy định tại Điều 5.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Bảo lưu kết quả học tập thế nào?",
+            "responses": "Nộp đơn tại Phòng Đào tạo Đại học (P106 - Nhà A9) từ thứ 2 đến thứ 6.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Phòng Tài chính - Kế toán ở đâu?",
+            "responses": "Phòng Tài chính - Kế toán ở tầng 1 Nhà A1, số điện thoại: 024.37669295.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Sinh viên vi phạm kỷ luật bị sao?",
+            "responses": "Tùy mức độ, sinh viên có thể bị cảnh cáo, đình chỉ hoặc buộc thôi học theo Phần 2.4.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Xem lịch học trên app eUTC thế nào?",
+            "responses": "Vào mục \"Lịch học\" trên app eUTC để xem lịch trong ngày hoặc tuần.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Trung tâm Đào tạo trực tuyến UTC ở đâu?",
+            "responses": "Trung tâm Đào tạo trực tuyến UTC ở tầng 2 Nhà B3, số điện thoại: 02432444439.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Đóng dấu giấy tờ ở đâu?",
+            "responses": "Đến Phòng Văn thư (tầng 1 Nhà A1) từ thứ 2 đến thứ 6, nhận kết quả cuối buổi.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Thời gian học chính quy là bao lâu?",
+            "responses": "Thời gian học chính quy theo kế hoạch chuẩn, phù hợp với khung cơ cấu hệ thống giáo dục quốc dân.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Khoa Cơ khí liên hệ thế nào?",
+            "responses": "Khoa Cơ khí ở tầng 1 Nhà A6, số điện thoại: 024.37660397.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Tin tức trên app eUTC lấy từ đâu?",
+            "responses": "Tin tức trên app eUTC được lấy từ Cổng thông tin sinh viên (sinhvienhientai.utc.edu.vn).",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Xin thôi học thì làm gì?",
+            "responses": "Nộp đơn tại Phòng Đào tạo Đại học (P106 - Nhà A9) từ thứ 2 đến thứ 6.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Phòng Bảo vệ liên hệ ra sao?",
+            "responses": "Phòng Bảo vệ có số điện thoại: 024.37663471.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Điểm trung bình tích lũy là gì?",
+            "responses": "Điểm trung bình tích lũy là điểm trung bình của tất cả học phần đã học, tính theo thang điểm 4, dùng để đánh giá kết quả học tập.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Học kỳ phụ là gì?",
+            "responses": "Học kỳ phụ là học kỳ bổ sung ngoài học kỳ chính, dành cho sinh viên học lại hoặc cải thiện điểm, thường tổ chức vào mùa hè.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Sinh viên được học vượt không?",
+            "responses": "Sinh viên đạt điều kiện (điểm trung bình tích lũy từ 2.0 trở lên) có thể đăng ký học vượt theo kế hoạch của trường.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Đăng ký học phần làm sao?",
+            "responses": "Đăng ký học phần qua hệ thống http://qldt.utc.edu.vn/ theo lịch thông báo của Phòng Đào tạo Đại học.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Sinh viên bị đình chỉ học thì sao?",
+            "responses": "Sinh viên bị đình chỉ học tạm thời không được học trong thời gian quy định, sau đó có thể quay lại nếu đáp ứng điều kiện.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Sinh viên cần bao nhiêu tín chỉ để tốt nghiệp?",
+            "responses": "Số tín chỉ cần thiết để tốt nghiệp phụ thuộc vào ngành học, thường từ 130-150 tín chỉ, xem chi tiết trong chương trình đào tạo.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Thang điểm rèn luyện là gì?",
+            "responses": "Thang điểm rèn luyện từ 0-100, chia thành 5 mức: Xuất sắc, Tốt, Khá, Trung bình, Yếu, dựa trên hành vi và hoạt động.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Sinh viên diện cảnh cáo học vụ là ai?",
+            "responses": "Sinh viên có điểm trung bình tích lũy dưới 1.2 (năm 1) hoặc dưới 1.6 (các năm sau) sẽ bị cảnh cáo học vụ.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Quy định về thi lại học phần ra sao?",
+            "responses": "Sinh viên được thi lại tối đa 2 lần cho mỗi học phần, phải đăng ký và nộp lệ phí theo quy định.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Sinh viên được miễn giảm học phí khi nào?",
+            "responses": "Sinh viên thuộc diện chính sách (con liệt sĩ, dân tộc thiểu số khó khăn) được miễn giảm học phí theo quy định nhà nước.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Xin giấy xác nhận đang học ở đâu?",
+            "responses": "Nộp yêu cầu qua http://sis.utc.edu.vn, nhận giấy tại Phòng 101 Nhà T1 vào sáng thứ 4 hoặc chiều thứ 6.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Chuyển ngành học làm thế nào?",
+            "responses": "Nộp đơn tại Phòng Đào tạo Đại học (P106 - Nhà A9) trong thời gian quy định, kèm theo bảng điểm và lý do chuyển ngành.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Gia hạn nộp học phí làm sao?",
+            "responses": "Nộp đơn xin gia hạn tại Phòng Tài chính - Kế toán (tầng 1 Nhà A1) trước hạn chót đóng học phí.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Xin cấp lại bằng tốt nghiệp ở đâu?",
+            "responses": "Liên hệ Phòng Đào tạo Đại học (P106 - Nhà A9), nộp đơn và lệ phí, thời gian xử lý khoảng 30 ngày.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Đăng ký ở ký túc xá thế nào?",
+            "responses": "Nộp đơn tại Ban Quản lý Ký túc xá (99 Nguyễn Chí Thanh) hoặc qua http://sis.utc.edu.vn, ưu tiên sinh viên năm nhất.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Trung tâm Hỗ trợ việc làm ở đâu?",
+            "responses": "Trung tâm Hỗ trợ việc làm ở tầng 2 Nhà A9, số điện thoại: 024.37664529.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Khoa Kinh tế Vận tải liên hệ thế nào?",
+            "responses": "Khoa Kinh tế Vận tải ở tầng 2 Nhà A6, số điện thoại: 024.37665078.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Phòng Quản lý Khoa học ở đâu?",
+            "responses": "Phòng Quản lý Khoa học ở tầng 3 Nhà A1, số điện thoại: 024.37663247.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Sinh viên cần hỗ trợ tâm lý liên hệ ai?",
+            "responses": "Liên hệ Trung tâm Hỗ trợ sinh viên tại P104 Nhà A9, số điện thoại: 024.37664529.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Câu lạc bộ sinh viên liên hệ ở đâu?",
+            "responses": "Liên hệ Hội Sinh viên tại P206 Hội trường lớn, số điện thoại: 024.37731419.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Hệ thống wifi trường dùng thế nào?",
+            "responses": "Kết nối wifi “UTC-Student” bằng tài khoản email sinh viên (@ims.utc.edu.vn) và mật khẩu cá nhân.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Đổi mật khẩu tài khoản qldt.utc.edu.vn ra sao?",
+            "responses": "Vào http://qldt.utc.edu.vn/, chọn “Quên mật khẩu” và làm theo hướng dẫn, hoặc liên hệ Phòng CNTT (tầng 2 Nhà A8).",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Tài khoản Microsoft 365 dùng làm gì?",
+            "responses": "Tài khoản Microsoft 365 dùng để truy cập Office online, Teams, và các công cụ học tập trực tuyến của trường.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Xem thông báo trường trên mạng ở đâu?",
+            "responses": "Xem thông báo tại Cổng thông tin sinh viên: http://sinhvienhientai.utc.edu.vn/.",
+            "context_set": ""
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": "Làm sao đăng ký môn học trực tuyến?",
+            "responses": "Đăng nhập http://qldt.utc.edu.vn/ bằng email sinh viên, chọn học phần và xác nhận theo lịch của trường.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hoạt động sinh viên",
+            "patterns": "Ngày truyền thống của trường là ngày nào?",
+            "responses": "Ngày truyền thống của trường là 15/11, kỷ niệm ngày thành lập dưới chính quyền cách mạng năm 1945.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hoạt động sinh viên",
+            "patterns": "Hội thao sinh viên tổ chức khi nào?",
+            "responses": "Hội thao sinh viên thường tổ chức vào tháng 10 hoặc tháng 11 hàng năm, theo thông báo của Đoàn Thanh niên.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hoạt động sinh viên",
+            "patterns": "Chương trình tình nguyện ở đâu?",
+            "responses": "Chương trình tình nguyện do Đoàn Thanh niên tổ chức, liên hệ P201 Hội trường lớn để đăng ký tham gia.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hoạt động sinh viên",
+            "patterns": "Sinh viên mới có hoạt động gì?",
+            "responses": "Sinh viên mới tham gia Tuần lễ định hướng, sinh hoạt công dân đầu khóa, và các hoạt động chào đón của Đoàn Thanh niên.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hoạt động sinh viên",
+            "patterns": "Giải bóng đá sinh viên tổ chức ra sao?",
+            "responses": "Giải bóng đá sinh viên do Hội Sinh viên phối hợp tổ chức, thông tin đăng ký tại P206 Hội trường lớn.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Học cùng lúc hai chương trình được không?",
+            "responses": "Sinh viên có thể học cùng lúc hai chương trình nếu đáp ứng điều kiện học lực và được trường phê duyệt.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Điểm học phần được tính thế nào?",
+            "responses": "Điểm học phần là trung bình của điểm quá trình (30-50%) và điểm thi cuối kỳ (50-70%), tùy quy định từng môn.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Học phần điều kiện là gì?",
+            "responses": "Học phần điều kiện là các môn bắt buộc phải hoàn thành trước khi đăng ký môn khác, xem chi tiết trong chương trình đào tạo.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Chuyển điểm học phần từ trường khác được không?",
+            "responses": "Sinh viên có thể xin chuyển điểm nếu học phần tương đương, nộp bảng điểm tại Phòng Đào tạo Đại học để xét duyệt.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy chế đào tạo",
+            "patterns": "Thời gian thực tập tốt nghiệp là bao lâu?",
+            "responses": "Thời gian thực tập tốt nghiệp thường từ 8-12 tuần, tùy ngành học, theo kế hoạch của Khoa quản lý.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Quy định về đồng phục sinh viên là gì?",
+            "responses": "Sinh viên mặc đồng phục (áo trắng, quần tối màu) trong các buổi lễ, giờ học Giáo dục Quốc phòng hoặc theo yêu cầu của trường.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Sinh viên nghỉ học tối đa bao lâu?",
+            "responses": "Sinh viên có thể bảo lưu tối đa 2 năm liên tục, nộp đơn trước khi nghỉ tại Phòng Đào tạo Đại học.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Điểm rèn luyện dưới 50 thì sao?",
+            "responses": "Điểm rèn luyện dưới 50 sẽ bị xếp loại yếu, có thể ảnh hưởng đến học bổng và xét tốt nghiệp.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Sinh viên tốt nghiệp loại giỏi cần gì?",
+            "responses": "Điểm trung bình tích lũy từ 3.2 trở lên, không vi phạm kỷ luật và đạt chuẩn đầu ra ngoại ngữ.",
+            "context_set": ""
+        },
+        {
+            "tag": "Quy định sinh viên",
+            "patterns": "Quy định về sử dụng tài sản trường ra sao?",
+            "responses": "Sinh viên phải bảo quản tài sản trường, nếu làm hỏng phải bồi thường theo giá trị hiện hành.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Xin giấy chứng nhận tốt nghiệp tạm thời ở đâu?",
+            "responses": "Nộp đơn tại Phòng Đào tạo Đại học (P106 - Nhà A9) sau khi hoàn thành chương trình học, nhận trong 7 ngày.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Đăng ký tham gia Giáo dục Quốc phòng thế nào?",
+            "responses": "Đăng ký qua http://qldt.utc.edu.vn/ theo lịch của Trung tâm Giáo dục Quốc phòng, thường vào năm nhất.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Xin xác nhận bảng điểm ở đâu?",
+            "responses": "Nộp yêu cầu qua http://sis.utc.edu.vn, nhận tại Phòng 101 Nhà T1 vào sáng thứ 3 hoặc chiều thứ 5.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Chuyển ký túc xá làm sao?",
+            "responses": "Nộp đơn tại Ban Quản lý Ký túc xá (99 Nguyễn Chí Thanh), xét duyệt dựa trên tình trạng chỗ trống.",
+            "context_set": ""
+        },
+        {
+            "tag": "Thủ tục hành chính",
+            "patterns": "Xin học lại môn đã trượt ở đâu?",
+            "responses": "Đăng ký học lại qua http://qldt.utc.edu.vn/ hoặc tại Phòng Đào tạo Đại học (P106 - Nhà A9).",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Khoa Xây dựng liên hệ thế nào?",
+            "responses": "Khoa Xây dựng ở tầng 2 Nhà A7, số điện thoại: 024.37664528.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Trung tâm Ngoại ngữ UTC ở đâu?",
+            "responses": "Trung tâm Ngoại ngữ UTC ở tầng 3 Nhà B3, số điện thoại: 024.37664530.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Phòng Hành chính - Tổng hợp ở đâu?",
+            "responses": "Phòng Hành chính - Tổng hợp ở tầng 1 Nhà A1, số điện thoại: 024.37663246.",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Sinh viên khó khăn được hỗ trợ gì?",
+            "responses": "Sinh viên khó khăn có thể xin học bổng khuyến khích, vay vốn hoặc hỗ trợ tài chính tại Phòng CTCT&SV (P103 - Nhà A9).",
+            "context_set": ""
+        },
+        {
+            "tag": "Hỗ trợ sinh viên",
+            "patterns": "Liên hệ Văn phòng Khoa Điện - Điện tử ở đâu?",
+            "responses": "Văn phòng Khoa Điện - Điện tử ở tầng 2 Nhà A10, số điện thoại: 024.37664527.",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Vào trường UTC có được phát người yêu không?",
+            "responses": "Trường UTC không phát người yêu đâu, nhưng với tỉ lệ nam nhiều như vậy, cơ hội tìm người yêu cũng không ít đâu nhé!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Con trai trường UTC có dễ kiếm người yêu không?",
+            "responses": "Con trai trường UTC chiếm đa số, nhưng kiếm người yêu thì còn tùy vào bản lĩnh và duyên số của từng người!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Con gái trường UTC có xinh không?",
+            "responses": "Con gái trường UTC tuy ít nhưng nhiều bạn rất xinh, đặc biệt là các bạn nữ khoa CNTT được khen xinh đẹp, đáng yêu.",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Trường UTC có đông nam thật không?",
+            "responses": "Đúng vậy, trường UTC nổi tiếng đông nam, đặc biệt ở các ngành kỹ thuật như Cơ khí, Điện - Điện tử, CNTT tới 90% là nam.",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Sinh viên UTC có yêu trường không?",
+            "responses": "Đa số sinh viên UTC khá yêu trường, trừ những lúc thi cử gặp môn khó thì hay than thở chút thôi!",
+            "context_set": ""
+        },
+        {
+            "tag": "Học phí",
+            "patterns": "Học phí trường UTC có rẻ không?",
+            "responses": "Học phí UTC thuộc top rẻ nhất miền Bắc, rất hợp lý cho sinh viên, đặc biệt so với các trường kỹ thuật khác.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học phí",
+            "patterns": "Học phí ngành kỹ thuật ở UTC là bao nhiêu?",
+            "responses": "Học phí ngành kỹ thuật ở UTC khá thấp, dao động từ 10-15 triệu/năm tùy ngành, thuộc nhóm rẻ nhất khu vực miền Bắc.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học phí",
+            "patterns": "Sinh viên nghèo có học được ở UTC không?",
+            "responses": "Với mức học phí rẻ, UTC rất phù hợp cho sinh viên có hoàn cảnh khó khăn, lại còn có học bổng hỗ trợ nữa.",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Sao con gái trường UTC lại ế vậy?",
+            "responses": "Con gái UTC tuy xinh nhưng ít, lại học ngành kỹ thuật nên ít cơ hội gặp gỡ, có lẽ vì vậy mà nhiều bạn vẫn ế!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Tỉ lệ nam nữ ở UTC chênh lệch thế nào?",
+            "responses": "Tỉ lệ nam nữ ở UTC rất chênh lệch, khoảng 9:1 ở các ngành kỹ thuật như Cơ khí, Điện - Điện tử, CNTT.",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Cuộc sống ở UTC có vui không?",
+            "responses": "Cuộc sống ở UTC khá vui, nhiều hoạt động sinh viên, nhưng đông nam quá nên đôi khi hơi thiếu màu sắc!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Sinh viên UTC có hay đi chơi không?",
+            "responses": "Sinh viên UTC cũng thích đi chơi lắm, nhất là sau giờ học hay dịp cuối tuần, Hà Nội nhiều chỗ để khám phá mà!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Con gái ngành Cơ khí có hiếm không?",
+            "responses": "Con gái ngành Cơ khí cực hiếm, có khi cả khóa chỉ vài bạn, vì ngành này nam chiếm gần hết!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Con trai UTC có galant với con gái không?",
+            "responses": "Con trai UTC đông nên rất quan tâm con gái, thường galant lắm vì con gái hiếm mà!",
+            "context_set": ""
+        },
+        {
+            "tag": "Học phí",
+            "patterns": "Học phí UTC so với trường khác thế nào?",
+            "responses": "So với các trường kỹ thuật như Bách Khoa hay Công nghiệp, học phí UTC rẻ hơn nhiều, rất đáng để cân nhắc.",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Kì thi ở UTC có khó không?",
+            "responses": "Kì thi ở UTC có vài môn khó thật, nhưng nếu học bài bản thì vẫn qua được, sinh viên hay kêu ca lúc này thôi!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Khoa CNTT ở UTC có gì đặc biệt?",
+            "responses": "Khoa CNTT ở UTC nổi tiếng với các bạn nữ xinh đẹp, đáng yêu, và con trai thì siêu đông, học cũng rất chất lượng.",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Con gái UTC có giỏi kỹ thuật không?",
+            "responses": "Con gái UTC tuy ít nhưng rất giỏi, đặc biệt ở các ngành như CNTT, nhiều bạn còn vượt mặt con trai nữa!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Sinh viên UTC có hay học nhóm không?",
+            "responses": "Sinh viên UTC hay học nhóm lắm, nhất là trước kỳ thi, vừa học vừa bàn chuyện đời sống luôn!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Con trai ngành Điện - Điện tử có gì nổi bật?",
+            "responses": "Con trai ngành Điện - Điện tử ở UTC rất giỏi thực hành, nhưng đông quá nên đôi khi cạnh tranh tìm người yêu cũng gay gắt!",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Tú Anh lớp KHMT K63 có xinh không?",
+            "responses": "Nguyễn Tú Anh được khen là một trong những bạn nữ xinh đẹp và đáng yêu của lớp KHMT K63, rất nổi bật ở khoa CNTT!",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Phạm Thu Quỳnh lớp KHMT K63 học giỏi không?",
+            "responses": "Phạm Thu Quỳnh không chỉ xinh mà còn học rất giỏi, là niềm tự hào của lớp KHMT K63 đấy!",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Phạm Thu Phương có dễ thương không?",
+            "responses": "Phạm Thu Phương nổi tiếng dễ thương, tính tình thân thiện, là một trong 5 bông hoa của KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Phương Anh có gì đặc biệt?",
+            "responses": "Nguyễn Phương Anh vừa xinh vừa cá tính, rất được yêu mến trong lớp KHMT K63 và khoa CNTT.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Thị Lan Anh có đáng yêu không?",
+            "responses": "Nguyễn Thị Lan Anh cực kỳ đáng yêu, là một trong những bạn nữ nổi bật của KHMT K63, ai cũng khen hết!",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Tú Anh có hay tham gia hoạt động không?",
+            "responses": "Nguyễn Tú Anh không chỉ xinh mà còn năng động, hay tham gia các hoạt động của khoa CNTT và lớp KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Phạm Thu Quỳnh có thích lập trình không?",
+            "responses": "Phạm Thu Quỳnh rất đam mê lập trình, thường xuyên góp mặt trong các dự án của lớp KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Phạm Thu Phương có nhiều người thích không?",
+            "responses": "Phạm Thu Phương xinh và dễ thương nên chắc chắn có nhiều người để ý trong lớp KHMT K63 và khoa CNTT!",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Phương Anh có học giỏi CNTT không?",
+            "responses": "Nguyễn Phương Anh học CNTT rất tốt, là một trong những bạn nữ xuất sắc của lớp KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Thị Lan Anh có hay giúp bạn bè không?",
+            "responses": "Nguyễn Thị Lan Anh rất nhiệt tình, thường xuyên giúp đỡ bạn bè trong lớp KHMT K63, đặc biệt là về lập trình.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Tú Anh có nổi tiếng ở UTC không?",
+            "responses": "Nguyễn Tú Anh khá nổi tiếng ở UTC, nhất là trong khoa CNTT, nhờ vẻ xinh đẹp và năng động của mình.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Phạm Thu Quỳnh có gì khác biệt?",
+            "responses": "Phạm Thu Quỳnh nổi bật với sự thông minh, xinh đẹp và phong cách riêng, rất ấn tượng trong lớp KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Phạm Thu Phương có thích kỹ thuật không?",
+            "responses": "Phạm Thu Phương yêu thích kỹ thuật, đặc biệt là CNTT, nên chọn học lớp KHMT K63 và rất chăm chỉ.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Phương Anh có thân thiện không?",
+            "responses": "Nguyễn Phương Anh rất thân thiện, hòa đồng với mọi người trong lớp KHMT K63, ai cũng quý.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Thị Lan Anh có thích dự án nhóm không?",
+            "responses": "Nguyễn Thị Lan Anh thích làm dự án nhóm, thường là người dẫn dắt trong các hoạt động của KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Tú Anh có hay đi chơi không?",
+            "responses": "Nguyễn Tú Anh năng động nên hay đi chơi cùng bạn bè sau giờ học, là linh hồn của lớp KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Phạm Thu Quỳnh có hay tham gia thi lập trình không?",
+            "responses": "Phạm Thu Quỳnh thường xuyên tham gia các cuộc thi lập trình, đại diện cho lớp KHMT K63 rất xuất sắc.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Phạm Thu Phương có điểm cao không?",
+            "responses": "Phạm Thu Phương thường đạt điểm cao, là một trong những bạn học tốt của lớp KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Phương Anh có mơ làm lập trình viên không?",
+            "responses": "Nguyễn Phương Anh có ước mơ trở thành lập trình viên chuyên nghiệp, rất phù hợp với ngành học ở KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Bạn nữ KHMT K63",
+            "patterns": "Nguyễn Thị Lan Anh có được nhiều người quý không?",
+            "responses": "Nguyễn Thị Lan Anh được rất nhiều người quý nhờ tính tình đáng yêu và sự nhiệt tình trong lớp KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Sinh viên UTC có thích ngành kỹ thuật không?",
+            "responses": "Đa số sinh viên UTC yêu ngành kỹ thuật, dù đôi khi áp lực nhưng vẫn tự hào vì học ở trường nổi tiếng như vậy!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Con gái khoa CNTT có ít không?",
+            "responses": "Con gái khoa CNTT khá ít, nhưng chất lượng thì khỏi bàn, nhiều bạn vừa xinh vừa giỏi như 5 bạn lớp KHMT K63.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học phí",
+            "patterns": "UTC có hỗ trợ tài chính cho sinh viên không?",
+            "responses": "UTC có nhiều học bổng và chính sách hỗ trợ tài chính, giúp sinh viên đỡ lo về học phí rẻ mà vẫn học tốt.",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Ký túc xá UTC có đông nam không?",
+            "responses": "Ký túc xá UTC siêu đông nam, tỉ lệ giống trong trường luôn, nên không khí lúc nào cũng náo nhiệt!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Con trai UTC có thích con gái trường mình không?",
+            "responses": "Con trai UTC rất thích con gái trường mình, vì hiếm nên ai cũng trân trọng và để ý lắm!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "Sinh viên UTC có hay học đêm không?",
+            "responses": "Sinh viên UTC hay học đêm lắm, nhất là trước kỳ thi, thư viện và ký túc xá lúc nào cũng sáng đèn!",
+            "context_set": ""
+        },
+        {
+            "tag": "Học phí",
+            "patterns": "Học phí UTC có tăng nhiều không?",
+            "responses": "Học phí UTC tăng nhẹ theo năm, nhưng vẫn giữ mức rẻ so với mặt bằng chung, sinh viên không lo lắm đâu!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Con gái UTC có hay bị để ý không?",
+            "responses": "Con gái UTC ít nên hay bị để ý lắm, đặc biệt là các bạn xinh đẹp như ở khoa CNTT!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đời sống sinh viên",
+            "patterns": "UTC có nhiều câu lạc bộ không?",
+            "responses": "UTC có rất nhiều câu lạc bộ, từ kỹ thuật đến văn nghệ, thể thao, sinh viên tha hồ tham gia để giao lưu!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Con trai UTC có ngưỡng mộ con gái ngành kỹ thuật không?",
+            "responses": "Con trai UTC rất ngưỡng mộ con gái ngành kỹ thuật, vì vừa hiếm vừa giỏi, nhất là các bạn ở khoa CNTT như KHMT K63!",
+            "context_set": ""
+        },
+        {
+            "tag": "Đặc điểm giới tính",
+            "patterns": "Con trai UTC có đẹp trai ko?",
+            "responses": "chắc là tùy người:))",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Môi trường học tập ở UTC như thế nào?",
+            "responses": "UTC có môi trường học tập năng động, cơ sở vật chất hiện đại, giảng viên giàu kinh nghiệm, cùng với nhiều cơ hội thực tập và nghiên cứu thực tế.",
+            "context_set": ""
+        },
+        {
+            "tag": "Xét tuyển",
+            "patterns": "UTC xét tuyển theo phương thức nào?",
+            "responses": "UTC xét tuyển theo các phương thức sau:\n1.Xét tuyển thẳng theo quy chế của Bộ GD&ĐT.\n2.Xét học bạ THPT theo điểm trung bình môn.\n3.Xét kết quả thi THPT Quốc gia.\n4.Xét tuyển theo kỳ thi đánh giá tư duy của ĐH Bách Khoa Hà Nội.",
+            "context_set": ""
+        },
+        {
+            "tag": "Chatbot",
+            "patterns": "Bạn có bạn trai/gái chưa?",
+            "responses": "Tớ là chatbot nên tớ chỉ iu mỗi code thôi:>",
+            "context_set": ""
+        },
+        {
+            "tag": "Chatbot",
+            "patterns": "Bạn có ăn không?",
+            "responses": "Tớ chỉ \"ăn\" dữ liệu thôi:>",
+            "context_set": ""
+        },
+        {
+            "tag": "Chatbot",
+            "patterns": "Bạn có ngủ không?",
+            "responses": "Vì cậu tớ sẵn sàng trò chuyện 24/7:))",
+            "context_set": ""
+        },
+        {
+            "tag": "Vô tri",
+            "patterns": "Nếu tôi là siêu nhân thì tôi nên làm gì đầu tiên",
+            "responses": "Đầu tiên tớ nghĩ bạn nên tỉnh mộng lại nhé:vv",
+            "context_set": ""
+        },
+        {
+            "tag": "Vô tri",
+            "patterns": "Tại sao tình yêu lại đau khổ",
+            "responses": "vì nó giống phần mềm chưa được cập nhật - lúc nào cũng có bug",
+            "context_set": ""
+        },
+        {
+            "tag": "Vô tri",
+            "patterns": "Bạn có biết cách nào để quên một người không",
+            "responses": "họ chỉ là \"tab\" trong cuộc đời bạn, chỉ cần đóng \"tab\" lại và mở \"tab\" mới thôi:>",
+            "context_set": ""
+        },
+        {
+            "tag": "Vô tri",
+            "patterns": "bạn có phải là một hacker không?",
+            "responses": "Không cóa đâu, vì toi là một chatbot lương thiện mà:))",
+            "context_set": ""
+        },
+        {
+            "tag": "Vô tri",
+            "patterns": "làm thế nào để học giỏi mà không cần học?",
+            "responses": "Bạn chỉ cần ngủ và mơ là được nhé:v",
+            "context_set": ""
+        },
+        {
+            "tag": "Vô tri",
+            "patterns": "Làm sao để không ngủ gật trong giờ học?",
+            "responses": "Ngủ đủ trước khi học, uống cà phê, ghi chép tay... hoặc ngồi bàn đầu và cầu mong giáo viên nhìn chỗ khác khi bạn gục xuống!",
+            "context_set": ""
+        },
+        {
+            "tag": "Vô tri",
+            "patterns": "Tại sao lập trình viên không bao giờ đói?",
+            "responses": "Vì họ luôn có cookies. Hahahaahaah...",
+            "context_set": ""
+        },
+        {
+            "tag": "Vô tri",
+            "patterns": "Lập trình viên làm gì khi rảnh?",
+            "responses": "Viết thêm bugs để có việc sửa. Hahahaahahaa...",
+            "context_set": ""
+        },
+        {
+            "tag": "Vô tri",
+            "patterns": "Làm sao để khiến lập trình viên tức giận?",
+            "responses": "Cài hộ cái win với. Hâhahaaaha...",
+            "context_set": ""
+        },
+        {
+            "tag": "Vô tri",
+            "patterns": "Vấn đề của dev là gì?",
+            "responses": "Sao nó lại chạy?\nSao nó không chạy?",
+            "context_set": ""
+        },
+        {
+            "tag": "Thực tập",
+            "patterns": "Nếu không có kinh nghiệm, làm sao để xin thực tập?",
+            "responses": "Không có kinh nghiệm? Hãy làm dự án cá nhân, viết CV thật xịn, kết nối với người trong ngành và cứ apply, đừng sợ!",
+            "context_set": ""
+        },
+        {
+            "tag": "Thực tập",
+            "patterns": "Có nên thực tập ở công ty nhỏ hay cố vào công ty lớn?",
+            "responses": "Tùy mục tiêu của bạn! Công ty nhỏ 👉 học nhiều, làm đủ thứ. Công ty lớn 👉 chuyên sâu, CV xịn. Chọn cái phù hợp với bạn nhất!",
+            "context_set": ""
+        },
+        {
+            "tag": "Thực tập",
+            "patterns": "Bị từ chối thực tập nhiều lần, tôi nên làm gì?",
+            "responses": "Đừng nản! Xem lại CV, cải thiện kỹ năng, làm dự án cá nhân, mở rộng networking và tiếp tục apply. Kiên trì rồi sẽ đậu!",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Làm thế nào để cải thiện điểm số của tôi trong học kỳ này?",
+            "responses": "Bạn có thể cải thiện điểm số bằng cách tập trung vào các môn học có điểm thấp nhất, xây dựng kế hoạch học tập chi tiết và tham gia các buổi ôn tập.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Có chiến lược học tập nào giúp tôi tăng hiệu suất học không?",
+            "responses": "Một số chiến lược hiệu quả bao gồm: sử dụng phương pháp Pomodoro, học theo sơ đồ tư duy, ôn tập theo khoảng cách thời gian, và thực hành bằng đề thi mẫu.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Làm thế nào để quản lý thời gian học tập hiệu quả?",
+            "responses": "Hãy lập kế hoạch học tập theo tuần, ưu tiên các môn khó trước, đặt mục tiêu ngắn hạn và sử dụng các ứng dụng hỗ trợ như Notion, Google Calendar để nhắc nhở.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Có công cụ nào giúp tôi ôn tập tốt hơn không?",
+            "responses": "Bạn có thể sử dụng các nền tảng như Quizlet (học bằng flashcard), Khan Academy (học video), và Coursera (học chuyên sâu).",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Tôi nên học bao nhiêu giờ mỗi ngày để đạt điểm cao?",
+            "responses": "Tùy vào khả năng tập trung của bạn. Trung bình, học 2-3 giờ/ngày với phương pháp hiệu quả sẽ giúp bạn cải thiện kết quả.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Làm sao để không quên kiến thức đã học?",
+            "responses": "Ôn tập định kỳ theo phương pháp Spaced Repetition giúp bạn ghi nhớ lâu hơn.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Phương pháp Spaced Repetition là gì?",
+            "responses": "Spaced Repetition (Lặp lại ngắt quãng) là phương pháp ôn tập theo khoảng thời gian tăng dần để ghi nhớ lâu hơn.\nBạn ôn lại thông tin ngay khi sắp quên, thay vì nhồi nhét một lúc. Dùng app như Anki, Quizlet sẽ giúp bạn áp dụng hiệu quả!",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Làm sao để không bị xao nhãng?",
+            "responses": "Để điện thoại ở chế độ máy bay hoặc xa tầm với. Nếu vẫn thấy cầm điện thoại, hãy tự nhắc mình: \"TikTok sẽ không làm bài kiểm tra hộ mình đâu!\"",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Tôi có thể học theo cách nào để hiểu bài nhanh hơn?",
+            "responses": "Bạn có thể thử các phương pháp như sơ đồ tư duy, học nhóm, hoặc dạy lại kiến thức cho người khác để ghi nhớ lâu hơn.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Có nên học nhồi nhét trước kỳ thi không?",
+            "responses": "Học nhồi nhét có thể giúp bạn nhớ tạm thời, nhưng để hiểu sâu và nhớ lâu, bạn nên ôn tập từ sớm và có kế hoạch học tập hợp lý.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Tôi có nên dồn deadline tới phút cuối không?",
+            "responses": "Không má ơi! Giải quyết deadline sớm đi trước khi nó giải quyết bạn :)))",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập ",
+            "patterns": "Làm sao để giỏi lập trình?",
+            "responses": "Viết code mỗi ngày như tập gym cho não! Học từ lỗi sai, hỏi Google, đọc tài liệu, và đừng copy-paste vô tội vạ!",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để bớt căng thẳng trước kỳ thi?",
+            "responses": "Đơn giản lắm! Học từ sớm, ôn lại đều đặn, ngủ đủ giấc… Hoặc chờ đến tối trước ngày thi rồi hoảng loạn như mọi khi :))",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Kỹ năng mềm?",
+            "responses": "Thực hành nhiều, tham gia hoạt động nhóm, rèn luyện giao tiếp.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm thế nào để hiểu Triết học Mác - Lê Nin?",
+            "responses": "Chia nhỏ từng nội dung, hiểu rõ các khái niệm, sử dụng sơ đồ tư duy để hệ thống kiến thức, liên hệ thực tế với các sự kiện lịch sử và xã hội để nhớ lâu hơn.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Đại số tuyến tính?",
+            "responses": "Nắm chắc các khái niệm cơ bản. Làm nhiều bài tập từ cơ bản đến nâng cao. Sử dụng phần mềm như MATLAB hoặc Python (NumPy) để trực quan hóa bài toán.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để giỏi Giải tích 1?",
+            "responses": "Hiểu rõ định nghĩa về giới hạn, đạo hàm, tích phân. Rèn luyện cách biến đổi hàm số, đạo hàm bậc cao. Thực hành giải đề từ dễ đến khó, đặc biệt là các bài toán ứng dụng thực tế.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học Tin học đại cương?",
+            "responses": "Hiểu bản chất của thuật toán, cấu trúc dữ liệu thay vì chỉ học lý thuyết. Thực hành code hàng ngày với C hoặc Python. Làm bài tập trên các nền tảng như LeetCode, Codeforces để tăng tư duy lập trình.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Giải tích 2 có khó không?",
+            "responses": "Kiến thức khó hơn Giải tích 1. Cần làm bài tập đa dạng, đặc biệt là bài toán ứng dụng. Sử dụng tài liệu tham khảo uy tín như sách của Stewart hoặc Apostol.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Lập trình nâng cao?",
+            "responses": "Học kỹ thuật lập trình như đệ quy, con trỏ, quản lý bộ nhớ. Làm dự án thực tế để áp dụng kiến thức. Đọc mã nguồn của các dự án lớn trên GitHub để học cách viết code sạch và tối ưu.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Cách học Vật lý điện từ hiệu quả?",
+            "responses": "Nắm vững các định luật cơ bản như Maxwell, định luật Coulomb, từ trường. Vẽ sơ đồ mạch điện khi làm bài tập. Sử dụng phần mềm mô phỏng như PhET để trực quan hóa hiện tượng vật lý.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Lập trình trực quan?",
+            "responses": "Làm quen với các công cụ như Visual Studio, PyQt, hoặc JavaFX. Thực hành bằng cách xây dựng ứng dụng có giao diện đơn giản như trình quản lý công việc, phần mềm tính toán.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Cách học Thiết kế Web hiệu quả?",
+            "responses": "Bắt đầu với HTML, CSS, JavaScript, sau đó học thêm về framework. Thực hành bằng cách tạo trang web cá nhân và làm dự án thực tế.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Toán rời rạc?",
+            "responses": "Hiểu rõ các khái niệm tập hợp, logic, đồ thị. Giải bài tập nhiều, sử dụng sơ đồ tư duy để hệ thống kiến thức, áp dụng thuật toán để hiểu bản chất.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Cấu trúc dữ liệu và giải thuật nên học thế nào?",
+            "responses": "Học kỹ các cấu trúc cơ bản như mảng, danh sách liên kết, ngăn xếp, hàng đợi, cây. Thực hành trên LeetCode, Codeforces để rèn luyện tư duy thuật toán.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Kiến trúc và tổ chức máy tính?",
+            "responses": "Hiểu mô hình Von Neumann, cách hoạt động của CPU, bộ nhớ, cache. Xem video mô phỏng về cách máy tính xử lý dữ liệu để dễ hình dung hơn.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Lập trình hướng đối tượng có khó không? Học thế nào?",
+            "responses": "Nắm chắc các nguyên tắc OOP (đóng gói, kế thừa, đa hình). Viết chương trình thực tế bằng Java, Python hoặc C++, làm dự án nhỏ như quản lý sinh viên, thư viện.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Xác suất thống kê?",
+            "responses": "Hiểu rõ các quy tắc xác suất cơ bản, công thức phân phối xác suất. Thực hành bài tập thường xuyên, sử dụng phần mềm như Excel, R, Python để mô phỏng dữ liệu.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Hệ điều hành học thế nào cho hiệu quả?",
+            "responses": "Hiểu các khái niệm về quản lý tiến trình, bộ nhớ, hệ thống tệp. Cài đặt Linux hoặc sử dụng máy ảo để thực hành các lệnh và cấu hình hệ thống.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Cách học Công nghệ Java hiệu quả?",
+            "responses": "Nắm chắc OOP, làm quen với Java Core trước, sau đó học về JDBC, JavaFX hoặc Spring Boot. Xây dựng ứng dụng thực tế để nắm vững kiến thức.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Cơ sở dữ liệu quan trọng nhất là gì?",
+            "responses": "Hiểu mô hình ERD, SQL cơ bản (SELECT, JOIN, GROUP BY), thực hành trên MySQL hoặc SQLServer, học về tối ưu truy vấn và chuẩn hóa dữ liệu.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để giỏi Phân tích và thiết kế thuật toán?",
+            "responses": "Thành thạo các thuật toán cơ bản như sắp xếp, tìm kiếm, quy hoạch động, chia để trị. Thực hành trên LeetCode, Codeforces để rèn luyện tư duy giải thuật.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Cách học hiệu quả Mạng máy tính?",
+            "responses": "Nắm vững mô hình OSI, giao thức TCP/IP. Dùng Wireshark để phân tích gói tin và thực hành cấu hình mạng trên Packet Tracer hoặc thực tế.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Phân tích thiết kế hệ thống?",
+            "responses": "Thành thạo UML, hiểu quy trình phát triển phần mềm. Áp dụng vào dự án nhỏ, sử dụng công cụ như Microsoft Visio, Draw.io để vẽ sơ đồ hệ thống.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Học Tiếng Anh A1, A2, B1 thế nào cho hiệu quả?",
+            "responses": "Luyện nghe và nói qua ứng dụng như Duolingo, BBC Learning English. Học từ vựng theo chủ đề, thực hành viết câu ngắn hàng ngày.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Học Tiếng Anh chuyên ngành CNTT như thế nào?",
+            "responses": "Đọc tài liệu, tài nguyên lập trình bằng tiếng Anh. Xem video tutorial trên YouTube, học từ vựng chuyên ngành bằng flashcard.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Tiếng Nga B1?",
+            "responses": "Học bảng chữ cái, từ vựng cơ bản, luyện giao tiếp hàng ngày.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Học Tiếng Pháp chuyên ngành CNTT cần chú ý gì?",
+            "responses": "Làm quen với thuật ngữ CNTT bằng tiếng Pháp, đọc tài liệu từ các trường đại học Pháp, thực hành viết báo cáo ngắn về công nghệ bằng tiếng Pháp.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Cách học tốt An toàn và bảo mật thông tin?",
+            "responses": "Hiểu các khái niệm về mã hóa, firewall, tấn công mạng. Học về bảo mật web, bảo vệ dữ liệu cá nhân.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Học Thuật toán và Ứng dụng thế nào?",
+            "responses": "Hiểu bản chất thuật toán trước khi code, làm bài tập trên LeetCode, Codeforces. Áp dụng thuật toán vào giải quyết bài toán thực tế như tìm kiếm đường đi ngắn nhất.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Hệ quản trị cơ sở dữ liệu?",
+            "responses": "Học về MySQL, PostgreSQL, tối ưu truy vấn SQL, quản lý transaction để nâng cao hiệu suất hệ thống.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Học Các phương pháp tối ưu như nào?",
+            "responses": "Học về quy hoạch tuyến tính, thuật toán di truyền, áp dụng vào thực tế như tối ưu lộ trình vận chuyển, lịch trình công việc.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Học Kiến trúc các hệ thống thông tin thế nào cho hiệu quả?",
+            "responses": "Nắm vững các mô hình kiến trúc (Monolithic, Microservices), hiểu quy trình thiết kế hệ thống, thực hành với các công cụ như AWS, Azure hoặc Kubernetes.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Trí tuệ nhân tạo là gì? Học thế nào?",
+            "responses": "Là lĩnh vực mô phỏng trí thông minh con người bằng máy tính. Bắt đầu với các thuật toán cơ bản như tìm kiếm, mạng nơ-ron nhân tạo, áp dụng vào bài toán nhận diện hình ảnh, chatbot như tôi nè :))",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Học máy cơ bản học như nào?",
+            "responses": "Học máy (Machine Learning) là một nhánh của AI, tập trung vào việc dạy máy tính học từ dữ liệu. Học tốt bằng cách thực hành với Python, Scikit-learn, TensorFlow.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Công nghệ phần mềm quan trọng thế nào?",
+            "responses": "Là nền tảng để phát triển phần mềm chất lượng. Học về quy trình phát triển phần mềm (Agile, Waterfall), kiểm thử phần mềm, quản lý dự án.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt Lập trình Web?",
+            "responses": "Nắm vững HTML, CSS, JavaScript. Thực hành với React, Vue.js, hoặc backend với Node.js, Django. Tạo các dự án cá nhân để rèn luyện.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Lập trình thiết bị di động có khó không?",
+            "responses": "Cần học Swift (iOS) hoặc Kotlin (Android). Bắt đầu với ứng dụng nhỏ như lịch hẹn, ghi chú. Sử dụng Flutter nếu muốn phát triển đa nền tảng.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Phát triển ứng dụng DApp học như nào?",
+            "responses": "Học Solidity, Web3.js, thử nghiệm với Ethereum hoặc Binance Smart Chain.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Học Lập trình API có cần thiết không?",
+            "responses": "Rất cần thiết để xây dựng backend. Học về REST, GraphQL, sử dụng Flask, FastAPI hoặc Express.js để tạo API, kết nối với cơ sở dữ liệu.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để học tốt môn Đặc tả phần mềm?",
+            "responses": "Bắt đầu bằng cách hiểu rõ các mô hình đặc tả (UML, FSM), thực hành viết tài liệu đặc tả cho các dự án nhỏ.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Khai phá dữ liệu có khó không? Cần học gì trước?",
+            "responses": "Không quá khó nếu có nền tảng về Python, toán thống kê, và thuật toán. Hãy bắt đầu với Pandas, Matplotlib, Scikit-learn.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm thế nào để kiểm thử phần mềm hiệu quả?",
+            "responses": "Hiểu quy trình kiểm thử (Unit Test, Integration Test), thực hành với Selenium, JUnit, Postman cho API.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Môn Xử lý ngôn ngữ tự nhiên (NLP) nên học từ đâu?",
+            "responses": "Học về Tokenization, Stopwords, Vectorization trước. Bắt đầu với NLTK, SpaCy, Hugging Face Transformers.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Cách học tốt môn Lưu trữ và xử lý dữ liệu lớn?",
+            "responses": "Làm quen với hệ thống xử lý dữ liệu như Hadoop, Spark. Thực hành xử lý tập dữ liệu lớn trên Google Colab.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Có mẹo nào để học Thị giác máy tính nhanh hơn không?",
+            "responses": "Bắt đầu bằng OpenCV, TensorFlow/Keras. Thử nhận diện ảnh, áp dụng vào các bài toán thực tế như OCR, phân loại ảnh.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để hiểu rõ Hệ cơ sở tri thức?",
+            "responses": "Tìm hiểu về logic mệnh đề, OWL, RDF. Thực hành xây dựng hệ thống tri thức đơn giản trên Protégé.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Học Học sâu (Deep Learning) thì nên bắt đầu từ đâu?",
+            "responses": "Học về mạng nơ-ron (ANN, CNN, RNN), sử dụng TensorFlow/Keras. Thực hành với bài toán phân loại ảnh.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm thế nào để hoàn thành thực tập tốt nghiệp hiệu quả?",
+            "responses": "Chọn đề tài phù hợp, chủ động tìm hiểu công nghệ, viết báo cáo chi tiết và xin phản hồi từ giảng viên hướng dẫn.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để chọn đề tài đồ án tốt nghiệp dễ làm mà vẫn chất lượng?",
+            "responses": "Chọn đề tài dựa trên sở thích, có ứng dụng thực tế. Nên chọn lĩnh vực có tài liệu, công cụ hỗ trợ sẵn để triển khai nhanh.",
+            "context_set": ""
+        },
+        {
+            "tag": "Chatbot",
+            "patterns": "Làm thế nào để hệ thống dự đoán điểm của tôi?",
+            "responses": "Hệ thống sẽ dựa trên điểm số các môn trước đó của bạn, dữ liệu từ các sinh viên khác, và một số yếu tố khác để đưa ra dự đoán. Bạn có thể nhập điểm của mình để nhận kết quả!",
+            "context_set": ""
+        },
+        {
+            "tag": "Chatbot",
+            "patterns": "Dự đoán này có chính xác không?",
+            "responses": "Dự đoán của tôi mang tính chất tham khảo. Độ chính xác phụ thuộc vào dữ liệu bạn cung cấp và sự biến động trong cách học tập của bạn.",
+            "context_set": ""
+        },
+        {
+            "tag": "Chatbot",
+            "patterns": "Dữ liệu của tôi có bị lưu lại không?",
+            "responses": "Không, hệ thống chỉ sử dụng dữ liệu của bạn để tính toán và không lưu trữ thông tin cá nhân.",
+            "context_set": ""
+        },
+        {
+            "tag": "Chatbot",
+            "patterns": "Tôi có thể tốt nghiệp đúng hạn không?",
+            "responses": "Hiện tại tôi chưa thể truy cập dữ liệu điểm của bạn nên chưa thể đưa ra lời khuyên phù hợp. Bạn có thể cung cấp điểm số hoặc hỏi tôi cách học tốt hơn nhé!",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Tôi cảm thấy chán nản khi học, có cách nào giúp tôi không?",
+            "responses": "Học tập đôi khi có thể căng thẳng, nhưng bạn có thể thử thay đổi cách học như học nhóm, nghe nhạc nhẹ khi ôn bài, hoặc chia nhỏ thời gian học để giảm áp lực.",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Tôi bị mất tập trung khi học, có cách nào khắc phục không?",
+            "responses": "Bạn có thể thử kỹ thuật Pomodoro (học 25 phút, nghỉ 5 phút), loại bỏ những thứ gây xao nhãng xung quanh hoặc thay đổi không gian học tập để giúp bạn tập trung hơn!",
+            "context_set": ""
+        },
+        {
+            "tag": "Học tập",
+            "patterns": "Làm sao để có động lực học tập?",
+            "responses": "Để duy trì động lực, bạn có thể đặt mục tiêu rõ ràng, tưởng tượng về kết quả mà bạn muốn đạt được, hoặc tự thưởng cho bản thân sau mỗi cột mốc học tập quan trọng.",
+            "context_set": ""
+        }
+    ]
+}
