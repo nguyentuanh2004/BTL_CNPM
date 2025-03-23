@@ -10,8 +10,9 @@ from chefboost import Chefboost as chef
 import sys
 import os
 import warnings
+import test_bot
 warnings.filterwarnings("ignore")
-st.header(":blue[DỰ ĐOÁN KẾT QUẢ HỌC TẬP SINH VIÊN]")
+st.header(":blue[🌺DỰ ĐOÁN KẾT QUẢ HỌC TẬP SINH VIÊN🌷]")
 st.subheader('Nhập các thông tin điểm')
 
 #css
@@ -362,7 +363,7 @@ if options == "Năm 1":
     if option_model == "Cây quyết định":
         #load_clf = pickle.load(open('Pickle/sinhvienn2_heso.pkl', 'rb'))
         flag = False
-        if 'hechu' in excel_file.lower():
+        if '4point' in excel_file.lower():
             flag = True
         if flag:
             # print('path', os.getcwd())
@@ -380,14 +381,14 @@ if options == "Năm 1":
     if option_model == "Cây quyết định":
         #prediction = load_clf.predict(df)
         print(df.values[0], os.getcwd())
-        if 'hechu' in excel_file.lower():
+        if '4point' in excel_file.lower():
             data = convert_number_to_char(df)
             print(data.values[0])
             prediction=chef.predict(load_clf,data.values[0])
         else:
             prediction=chef.predict(load_clf,df.values[0])
         if flag:
-            if 'hechu' in os.getcwd().lower():
+            if '4point' in os.getcwd().lower():
                 os.chdir("..")
             print(os.getcwd())
     elif option_model == "Naive Bayes":
@@ -396,13 +397,13 @@ if options == "Năm 1":
    # ghi ket qua du doan
     st.subheader('Dự đoán kết quả học tập')
     if(prediction!="Chưa Xếp Loại"):
-        st.subheader(f':green[Chúc mừng bạn ra trường với kết quả: {prediction[0]}]')
+        st.subheader(f':green[Chúc mừng bạn ra trường với kết quả: {prediction}]')
     else:
         st.subheader(f':red[Bạn có khả năng không ra trường đúng hạn, cần cố gắng thêm ]')
     
-    if option_model == "Cây quyết định":
-        Predict(score, load_clf)
-    
+    #if option_model == "Cây quyết định":
+        #Predict(score, load_clf)
+    #print(prediction)
     
 
 elif options=='Năm 2':
@@ -480,7 +481,7 @@ elif options=='Năm 2':
     if option_model == "Cây quyết định":
     #load_clf = pickle.load(open('Pickle/sinhvienn2_heso.pkl', 'rb'))
         flag = False
-        if 'hechu' in excel_file.lower():
+        if '4point' in excel_file.lower():
             
             flag = True
         if flag:
@@ -512,8 +513,8 @@ elif options=='Năm 2':
     else:
         st.subheader(f':red[Bạn có khả năng không ra trường đúng hạn, cần cố gắng thêm ]')
     #du doan ti le
-    if option_model == "Cây quyết định":
-        Predict(score, load_clf)
+    #if option_model == "Cây quyết định":
+        #Predict(score, load_clf)
 
 elif options=='Năm 3':
     _max_width_()
@@ -614,7 +615,7 @@ elif options=='Năm 3':
     if option_model == "Cây quyết định":
         #load_clf = pickle.load(open('Pickle/sinhvienn2_heso.pkl', 'rb'))
         flag = False
-        if 'hechu' in excel_file.lower():
+        if '4point' in excel_file.lower():
             
             flag = True
         if flag:
@@ -642,9 +643,42 @@ elif options=='Năm 3':
    # ghi ket qua du doan
     st.subheader('Dự đoán kết quả học tập')
     if(prediction!="Chưa Xếp Loại"):
-        st.subheader(f':green[Chúc mừng bạn ra trường với kết quả: {prediction[0]}]')
+        st.subheader(f':green[Chúc mừng bạn ra trường với kết quả: {prediction}]')
     else:
         st.subheader(f':red[Bạn có khả năng không ra trường đúng hạn, cần cố gắng thêm ]')
-    if option_model == "Cây quyết định":
-        Predict(score, load_clf)
+    #if option_model == "Cây quyết định":
+        #Predict(score, load_clf)
 
+
+# Tạo thanh nhập liệu
+knowledge_base = test_bot.load_knowledge_base("intents_output.json")
+st.markdown("<p style='font-size:20px;'>Một số điều bạn còn băn khoăn về vấn đề học tập tại mái trường này?🐳</p>", unsafe_allow_html=True)
+user_input = st.text_input("Tâm sự với tui nè💕")
+best_match: str | None = test_bot.find_best_match(user_input, [q["patterns"] for q in knowledge_base["intents"]])
+if best_match:
+    answer: str = test_bot.get_answer_for_question(best_match, knowledge_base)
+    st.write(answer)
+else:
+    st.write("Xin lỗi, tôi chưa hiểu :(((")
+
+import streamlit as st
+
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            font-size: 20px; /* Tăng kích thước chữ */
+            font-weight: bold; /* In đậm */
+            color: pink; /* Màu chữ */
+            background-color: rgba(0, 0, 0, 0.7); /* Nền mờ */
+            padding: 5px 10px;
+            border-radius: 8px;
+        }
+    </style>
+    <div class="footer">💅🎀💋 Made by chill girls from Computer Science K63 🌷🌸🌼🪻🌻💗💕</div>
+    """,
+    unsafe_allow_html=True
+)

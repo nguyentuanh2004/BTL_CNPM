@@ -680,3 +680,24 @@ if best_match:
     st.write(answer)
 else:
     st.write("Xin lỗi, tôi chưa hiểu :(((")
+import streamlit as st
+
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            font-size: 20px; /* Tăng kích thước chữ */
+            font-weight: bold; /* In đậm */
+            color: pink; /* Màu chữ */
+            background-color: rgba(0, 0, 0, 0.7); /* Nền mờ */
+            padding: 5px 10px;
+            border-radius: 8px;
+        }
+    </style>
+    <div class="footer">💅🎀💋 Made by chill girls from Computer Science K63 🌷🌸🌼🪻🌻💗💕</div>
+    """,
+    unsafe_allow_html=True
+)
